@@ -1,3 +1,4 @@
+local module = {}
 local Players = game:GetService("Players")
 local ServerStorage = game:GetService("ServerStorage")
 local Workspace = game:GetService("Workspace")
@@ -57,3 +58,4 @@ while true do
 
 	print("Nightmare Eyes spawned!")
 end
+return module
